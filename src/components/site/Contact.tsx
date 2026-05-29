@@ -55,10 +55,10 @@ export function Contact() {
                     <div className="text-xl font-semibold">Mesa, AZ 85206</div>
                   </div>
                   <a
+                    href="tel:+14806495297"
                     className="mt-5 inline-flex items-center gap-2 whitespace-nowrap text-xl font-bold text-white transition-colors hover:text-accent"
-
-                    className="mt-5 inline-flex items-center gap-2 text-2xl font-bold text-white transition-colors hover:text-accent"
                   >
+
                     <Phone className="h-5 w-5" />
                     (480) 649‑5297
                   </a>
