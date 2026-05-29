@@ -62,11 +62,12 @@ export function Process() {
             className="absolute left-8 top-0 hidden w-0.5 bg-gradient-to-b from-primary to-accent md:block lg:left-1/2 lg:-translate-x-1/2"
           />
 
-          <div className="hidden h-0.5 w-full bg-border lg:block lg:absolute lg:top-24" />
+          <div className="hidden h-0.5 w-full bg-border lg:block lg:absolute lg:top-8" />
           <motion.div
             style={{ width: fillWidth }}
-            className="hidden h-0.5 bg-gradient-to-r from-primary to-accent lg:block lg:absolute lg:top-24"
+            className="hidden h-0.5 bg-gradient-to-r from-primary to-accent lg:block lg:absolute lg:top-8"
           />
+
 
           <div className="grid gap-12 lg:grid-cols-3">
             {steps.map((s, i) => (
