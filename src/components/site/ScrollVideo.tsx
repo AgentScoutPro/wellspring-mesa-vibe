@@ -33,8 +33,8 @@ export function ScrollVideo() {
         if (Math.abs(diff) > 0.01) {
           try {
             v.currentTime = current + diff * 0.25;
-          } catch {
-            /* ignore seek errors */
+          } catch (_err) {
+            void _err;
           }
         }
       }
