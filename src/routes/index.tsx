@@ -34,7 +34,7 @@ function Index() {
     <main className="min-h-screen bg-background">
       <Nav />
       <Hero />
-      <ScrollVideo />
+      <WhoWeHelp />
       <Approach />
       <Services />
       <WhyChoose />
