@@ -1,4 +1,4 @@
-import { Phone, Check } from "lucide-react";
+import { Phone } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const links = [
@@ -20,42 +20,36 @@ export function Nav() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full border-b transition-all ${
+      className={`fixed top-0 z-50 w-full transition-all duration-300 ${
         scrolled
-          ? "border-slate-deep/5 bg-background/90 backdrop-blur-md"
-          : "border-transparent bg-background/60 backdrop-blur"
+          ? "bg-background/85 backdrop-blur-md border-b border-border/60 py-3"
+          : "bg-transparent py-5"
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-8 md:py-5">
-        <a href="#top" className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
-            <Check className="h-5 w-5" strokeWidth={1.75} />
-          </div>
-          <div className="leading-none">
-            <div className="text-lg font-bold tracking-tight text-slate-deep">City Health</div>
-            <div className="mt-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
-              Services
-            </div>
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6">
+        <a href="#top" className="flex items-center gap-2">
+          <div className="h-9 w-9 rounded-lg bg-gradient-primary shadow-glow" />
+          <div className="leading-tight">
+            <div className="text-sm font-semibold text-slate-deep">City Health</div>
+            <div className="text-[11px] uppercase tracking-widest text-muted-foreground">Services</div>
           </div>
         </a>
-
-        <nav className="hidden items-center gap-10 md:flex">
+        <nav className="hidden items-center gap-8 md:flex">
           {links.map((l) => (
             <a
               key={l.href}
               href={l.href}
-              className="text-sm font-medium text-slate-deep transition-colors hover:text-primary"
+              className="text-sm font-medium text-slate-deep/80 transition-colors hover:text-primary"
             >
               {l.label}
             </a>
           ))}
         </nav>
-
         <a
           href="tel:+14806495297"
-          className="inline-flex items-center gap-2 rounded-full bg-slate-deep px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-[color:var(--muted-foreground)]"
+          className="inline-flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-elegant transition-transform hover:scale-[1.03]"
         >
-          <Phone className="h-4 w-4 text-accent" />
+          <Phone className="h-4 w-4" />
           <span className="hidden sm:inline">(480) 649-5297</span>
         </a>
       </div>
