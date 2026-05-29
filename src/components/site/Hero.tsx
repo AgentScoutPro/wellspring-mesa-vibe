@@ -11,15 +11,7 @@ export function Hero() {
 
       <div className="relative mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-[1.15fr_0.85fr] md:items-center">
         <div>
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-white/60 px-4 py-1.5 text-xs font-medium text-primary backdrop-blur"
-          >
-            <Sparkles className="h-3.5 w-3.5" />
-            Chiropractor-Led Integrated Clinic · Mesa, AZ
-          </motion.div>
+
 
           <motion.h1
             initial={{ opacity: 0, y: 24 }}
