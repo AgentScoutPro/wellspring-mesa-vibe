@@ -1,8 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Nav } from "@/components/site/Nav";
-import { Nav } from "@/components/site/Nav";
 import { Hero } from "@/components/site/Hero";
 import { ScrollFrames } from "@/components/site/ScrollFrames";
+import { WhoWeHelp } from "@/components/site/WhoWeHelp";
 import { Approach } from "@/components/site/Approach";
 import { Services } from "@/components/site/Services";
 import { WhyChoose } from "@/components/site/WhyChoose";
