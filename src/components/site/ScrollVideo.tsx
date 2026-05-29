@@ -68,7 +68,6 @@ export function ScrollVideo() {
           preload="auto"
           className="absolute inset-0 h-full w-full object-cover"
         />
-        />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/60" />
       </div>
     </section>
