@@ -66,9 +66,8 @@ export function ScrollVideo() {
           muted
           playsInline
           preload="auto"
-          // @ts-expect-error - non-standard but useful on iOS
-          disableRemotePlayback
           className="absolute inset-0 h-full w-full object-cover"
+        />
         />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-background/40 via-transparent to-background/60" />
       </div>
