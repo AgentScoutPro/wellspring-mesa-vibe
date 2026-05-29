@@ -34,7 +34,6 @@ function Index() {
     <main className="min-h-screen bg-background">
       <Nav />
       <Hero />
-      <ScrollFrames frameCount={60} />
       <WhoWeHelp />
       <Approach />
       <Services />
