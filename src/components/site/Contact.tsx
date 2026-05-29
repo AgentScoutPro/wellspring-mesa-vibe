@@ -36,14 +36,14 @@ export function Contact() {
                   <div className="mt-4 space-y-1">
                     <div className="text-xl font-semibold">1303 S Longmore #8</div>
                     <div className="text-xl font-semibold">Mesa, AZ 85202</div>
-                  </div>
                   <a
                     href="tel:+14806495297"
-                    className="mt-5 inline-flex items-center gap-2 text-2xl font-bold text-white transition-colors hover:text-accent"
+                    className="mt-5 inline-flex items-center gap-2 whitespace-nowrap text-xl font-bold text-white transition-colors hover:text-accent"
                   >
                     <Phone className="h-5 w-5" />
                     (480) 649‑5297
                   </a>
+
                 </div>
                 <div className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur">
                   <div className="text-xs font-semibold uppercase tracking-widest text-accent">
