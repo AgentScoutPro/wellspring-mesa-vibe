@@ -35,7 +35,6 @@ function Index() {
       <Nav />
       <Hero />
       <ScrollVideo />
-      <WhoWeHelp />
       <Approach />
       <Services />
       <WhyChoose />
