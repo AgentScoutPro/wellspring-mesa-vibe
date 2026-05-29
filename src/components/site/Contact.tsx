@@ -34,7 +34,8 @@ export function Contact() {
                     Mesa — Longmore
                   </div>
                   <div className="mt-4 space-y-1">
-                    <div className="text-xl font-semibold">1303 S Longmore #8</div>
+                    <div className="text-xl font-semibold">1303 S Longmore</div>
+                    <div className="text-xl font-semibold">#8</div>
                     <div className="text-xl font-semibold">Mesa, AZ 85202</div>
                   </div>
                   <a
