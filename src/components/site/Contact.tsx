@@ -51,8 +51,10 @@ export function Contact() {
                     Mesa — Power Rd
                   </div>
                   <div className="mt-4 space-y-1">
-                    <div className="text-xl font-semibold">1234 S Power Rd Suite 202</div>
+                    <div className="text-xl font-semibold">1234 S Power Rd</div>
+                    <div className="text-xl font-semibold">Suite 202</div>
                     <div className="text-xl font-semibold">Mesa, AZ 85206</div>
+
                   </div>
                   <a
                     href="tel:+14806495297"
